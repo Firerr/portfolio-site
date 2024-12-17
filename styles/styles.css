@@ -1,0 +1,13 @@
+.portfolioItem {
+  background: slategray;
+  min-height: 400px;
+  width:300px;
+  margin: 5px;
+}
+
+.portfolioList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+}
