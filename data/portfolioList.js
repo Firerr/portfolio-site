@@ -10,14 +10,16 @@ export const portfolioList = [
     projectImage: weatherImage,
     url: 'https://5-day-forecast.vercel.app/',
     gitLink: 'https://github.com/Firerr/5-day-forecast',
+    skills: ['HTML', 'CSS', 'Javascript'],
   },
   {
     name: 'Christmas Movie Picker',
     description:
-      'A day group project, that picks a Christmas movie from themoviedb.org based on a selection of choices, uses an API, vite and tailwind',
+      'A day group project, that picks a Christmas movie from a database based on a selection of choices, uses an API, vite and tailwind',
     projectImage: christmasImage,
     url: 'https://christmas-movie-picker.vercel.app/',
     gitLink: 'https://github.com/Firerr/christmas-movie-picker',
+    skills: ['react'],
   },
   {
     name: 'Four Card Feature',
@@ -26,6 +28,7 @@ export const portfolioList = [
     projectImage: fourCardImage,
     url: 'https://four-card-feature-sigma-one.vercel.app/',
     gitLink: 'https://github.com/Firerr/four-card-feature',
+    skills: ['html', 'css'],
   },
   {
     name: 'Cats Main',
@@ -33,5 +36,6 @@ export const portfolioList = [
     projectImage: catImage,
     url: 'https://cats-main.vercel.app/',
     gitLink: 'https://github.com/Firerr/cats-main',
+    skills: [],
   },
 ];
